@@ -38,18 +38,19 @@ const Contact = () => {
     <div id='contact' >
       <h2 className='con'>Contact Us</h2>
       <div className='container-loc'>
+     
         <div className='loc'>
-        <iframe  className='gloc' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15278.943294250586!2d74.568676!3d16.7898139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11fd6c3038819%3A0xefd0838fec78caf4!2sDhanshree%20Agrotech!5e0!3m2!1sen!2sin!4v1722175593143!5m2!1sen!2sin" 
-         width="400" height="350" style={{border:0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+        <iframe title='unique'  className='gloc' src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15278.943294250586!2d74.568676!3d16.7898139!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11fd6c3038819%3A0xefd0838fec78caf4!2sDhanshree%20Agrotech!5e0!3m2!1sen!2sin!4v1722175593143!5m2!1sen!2sin" 
+         width="900" height="650" style={{border:0}} allowFullScreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
         </div>
-        <div className='address'>
+        <div className='address5'>
         
-           <h3 >Address : </h3>
-           <a className='call' href='https://maps.app.goo.gl/2eJY6wUfHkCEFVNUA'><p className='address'> Dhanshree agrotech Udgaon, near Technical Highschool, Udgaon, Maharashtra 416101.</p></a><hr></hr>
+           <h1 >Address : </h1>
+           <a className='call' href='https://maps.app.goo.gl/2eJY6wUfHkCEFVNUA'><h5 className='address'> Dhanshree agrotech Udgaon, near Technical Highschool, Udgaon, Maharashtra 416101.</h5></a><hr></hr>
            
-           <h3>Phone : </h3>
-           <p className='address'><IoCall></IoCall><a className='call' href="tel:+91 9422753175">+ 9422753175</a></p>
-           <p className='address'><IoCall></IoCall><a className='call' href="tel:+91 8421603375">+ 8421603375</a></p>
+           <h1>Phone : </h1>
+           <h5 className='address'><IoCall></IoCall><a className='call' href="tel:+91 9422753175">+ 9422753175</a></h5>
+           <h5 className='address'><IoCall></IoCall><a className='call' href="tel:+91 8421603375">+ 8421603375</a></h5>
            
           <hr></hr>
            
@@ -72,7 +73,7 @@ const Contact = () => {
 
             <label htmlFor=''>Write your message here</label>
             <textarea name='message'  rows='8' placeholder='Enter your message' required></textarea>
-            <button type='submit' className='contact-submit'>Submit now</button>
+            <button type='submit' className='contact-submit'>Submit </button>
 
         </form>
     </div>
@@ -81,3 +82,4 @@ const Contact = () => {
 }
 
 export default Contact
+
